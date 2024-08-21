@@ -1,6 +1,6 @@
 const listaPersonas = document.getElementById("listaPersonas");
 const input = document.getElementById("input");
-const arrayGente = ["Tadeo Rodríguez","Rodrigo Doldán","María Belén De Oliveira","Micaela Crocco", "Thiago Rodríguez", "Maria Irene Gómez", "Rodrigo Bueno", "Micaela Tinelli" ];
+const arrayGente = ["Enzo Barreto","Tadeo Rodríguez","Rodrigo Doldán","María Belén De Oliveira","Micaela Crocco", "Thiago Rodríguez", "Maria Irene Gómez", "Rodrigo Bueno", "Micaela Tinelli" ];
 
 function reenderizarLista(personas){
     listaPersonas.innerHTML = "";
