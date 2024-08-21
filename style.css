@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+.caja_filtro{
+    background-color: lightcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#input{
+    border-radius: 5px;
+}
