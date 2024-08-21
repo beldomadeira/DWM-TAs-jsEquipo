@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="script.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        button { margin: 10px 0; padding: 5px 10px; }
+        div { margin-bottom: 20px; }
+    </style>
 </head>
 <body>
     <div class="cambiar-elemento">
         <p id="texto">Texto original</p>
-        <button type="button" onclick="cambiarTexto()">Cambiar texto</button>
+        <button type="button" id="btnCambiarTexto">Cambiar texto</button>
     </div>
-    <div class="aniadir-elemento">
+    <div class="manipular-lista">
         <ul id="lista"></ul>
         <input type="text" id="elemento"> 
-        <button type="button" onclick="aniadirElemento()">Añadir elemento</button>
+        <button type="button" id="btnAniadirElemento">Añadir elemento</button>
+        <button type="button" id="btnEliminarUltimo">Eliminar último elemento</button>
+    </div>
+    <div class="toggle-parrafo">
+        <p id="parrafoToggle">Este es un párrafo que se puede mostrar u ocultar.</p>
+        <button id="btnToggle">Mostrar/Ocultar</button>
+    </div>
+    <div class="contador">
+        <p>Contador: <span id="contador">0</span></p>
+        <button id="btnIncrementar">Incrementar</button>
     </div>
 </body>
 </html>
